@@ -12,10 +12,10 @@ public class Question {
         correctness = false;
     }
 
-    public Question (String question, String answer) {
+    public Question(String question, String answer) {
         this();
         this.question = question;
-        this.answer = answer;
+        this.correctAnswer = answer;
     }
 
     public void setGivenAnswer(String answer) {
